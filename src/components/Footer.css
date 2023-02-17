@@ -1,0 +1,33 @@
+.footer-wrapper{
+    background-color: #000;
+}
+
+.footer-wrapper h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer-wrapper ul{
+    padding: 0px;
+}
+
+
+.footer-wrapper ul li{
+    list-style-type: none;
+    margin: 15px 0px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.footer-wrapper ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-link div svg{
+    color: #fff;
+    font-size: 3rem;
+}

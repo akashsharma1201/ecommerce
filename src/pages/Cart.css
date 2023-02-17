@@ -1,0 +1,27 @@
+.billing-card {
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    height: 400px;
+
+}
+
+.billing-card div{
+    border-bottom: 1px solid #c8c7c7; 
+}
+.billing-card div span{
+    color: #000;
+    font-weight: 600;
+    
+}
+
+
+.billing-card button{
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    background-color: rgb(42, 42, 42);
+    color: #fff;
+}
+
+

@@ -1,0 +1,63 @@
+.prodcut-card {
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 300ms;
+    object-fit: cover;
+    overflow: hidden;
+    height: 350px;
+  }
+
+  .image-box img{
+    width: 200px;
+  }
+  
+  .image-box:hover img {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+  }
+  .content {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .content p {
+    text-transform: uppercase;
+    color: darkgrey;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0px;
+  }
+  .rating {
+    color: #d69e2e;
+    font-size: 1.4rem;
+  }
+  
+  .rating span,
+  .reviews {
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0px;
+  }
+  .content .price {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 600;
+  }
+  

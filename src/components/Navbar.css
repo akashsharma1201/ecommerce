@@ -1,0 +1,111 @@
+.navbar-wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-wrapper nav .menu-box ul {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin: 0%;
+}
+
+.menu-box .cross-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navbar-wrapper nav .menu-box ul li {
+  list-style-type: none;
+  margin: 0px 15px;
+}
+
+.navbar-wrapper nav .menu-box ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.navbar-wrapper nav .menu-box ul li .active {
+  position: relative;
+}
+
+.navbar-wrapper nav .menu-box ul li .active::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+.cart-box a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Poppins"; 
+}
+
+
+.cart-box a svg{
+    font-size: 1.4rem;
+    margin-left: 5px;
+}
+
+
+.cart {
+ position: relative;
+}
+
+.cart .cart-count {
+  position: absolute;
+  top: -8px;
+  
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -8%;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-wrapper nav #showMenu {
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    background-color: gray;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  #hideMenu {
+    display: none;
+
+  }
+
+  .navbar-wrapper nav .menu-box ul {
+    flex-direction: column;
+  }
+  .navbar-wrapper nav .menu-box ul li {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,4 @@
+export const FETCH_ALL_DATA = "FETCH_ALL_DATA";
+export const FETCH_SINGLE_PRODUCT = "FETCH_SINGLE_PRODUCT";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_TO_CART = "REMOVE_TO_CART";
